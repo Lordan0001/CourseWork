@@ -28,9 +28,9 @@
 #define LEX_EQUALNMORE	'+'
 #define LEX_EQUALNLESS	'-'
 #define LEX_NOTEQUAL	'!'
-#define TYPE_INTEGER	"int"
-#define TYPE_STRING		"string"
-#define TYPE_CHAR		"char"
+#define TYPE_INTEGER	"fint"
+#define TYPE_STRING		"fstring"
+#define TYPE_CHAR		"fchar"
 //#define LEX_OPERATOR	'v'
 
 #define SEPARATOR_SYMBOL '|'

@@ -1,4 +1,4 @@
-int max(int x, int y)
+fint max(fint x, fint y)
 {
 	if x>~y
 	{
@@ -10,28 +10,30 @@ int max(int x, int y)
 	}
 	return 0;
 }
-string strfunction(int x)
-{
-	return "";
-}
-string strffunction(string x)
+
+
+
+fstring strffunction(fstring x)
 {
 x="dsasd";
 	return "";
 }
+
+
 main
 {
-	int z;
-	int x;
+	fint z;
+	fint x;
 	z=2141542642654654567890987654567890;
-	string sa;
-	string sb;
+	fstring sa;
+	fstring sb;
 	z = max(1,-5);
 	if z > 0
 	{
-		print "Welcome to BVD-2021!";
+		fout "Welcome to BVD-2021!";
 	}
-	print r';
+	fout r';
+
 	return 0;
 }
 

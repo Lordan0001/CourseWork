@@ -1,4 +1,4 @@
-function strcompare(_str1, _str2)
+function Check_Equals(_str1, _str2)
 {
 	if (_str1.length !== _str2.length) return 0;
 	for (let i = 0; i < _str1.length; i++)
@@ -7,9 +7,9 @@ function strcompare(_str1, _str2)
 	}
 	return 1;
 }
-function strlength(_str)
+function Pow(a,b)
 {
-	return _str.length;
+	return Math.pow(a,b);
 }
 function max(x, y)
 {

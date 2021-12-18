@@ -40,11 +40,11 @@ namespace LT
 
 	void LexAnalys(In::IN in, LexTable& lextable)
 	{
-		FST::FST fstINT(nullptr, 4, INTEGERNODES);
-		FST::FST fstSTR(nullptr, 7, STRINGNODES);
-		FST::FST fstCHAR(nullptr, 5, CHARNODES);
+		FST::FST fstINT(nullptr, 5, INTEGERNODES);
+		FST::FST fstSTR(nullptr, 8, STRINGNODES);
+		FST::FST fstCHAR(nullptr, 6, CHARNODES);
 		FST::FST fstMAIN(nullptr, 5, MAINNODES);
-		FST::FST fstPRNT(nullptr, 6, PRINTNODES);
+		FST::FST fstPRNT(nullptr, 5, PRINTNODES);
 		FST::FST fstRTRN(nullptr, 7, RETURNNODES);
 		FST::FST fstID(nullptr, 3, IDNODES);
 		FST::FST fstSTRL(nullptr, 3, STRLITNODES);
