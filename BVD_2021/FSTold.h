@@ -3,7 +3,11 @@
 #include "In.h"
 
 //4
-#define INTEGERNODES	FST::NODE (1, FST::RELATION('i', 1)),\
+//#define INTEGERNODES	FST::NODE (1, FST::RELATION('i', 1)),\
+//				FST::NODE (1, FST::RELATION('n', 2)),\
+//				FST::NODE (1, FST::RELATION('t', 3)),\
+//				FST::NODE()
+#define INTEGERNODES	FST::NODE (1, FST::RELATION('f', 1)),\
 				FST::NODE (1, FST::RELATION('n', 2)),\
 				FST::NODE (1, FST::RELATION('t', 3)),\
 				FST::NODE()

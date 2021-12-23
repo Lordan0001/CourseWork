@@ -1,0 +1,43 @@
+fint max(fint x, fint y)
+{
+	if x>~y
+	{
+		return x;
+	}
+	else 
+	{
+		return y;
+	}
+	return 0;
+}
+
+
+
+fstring strffunction(fstring x)
+{
+x="dsasd";
+	return "";
+}
+
+
+main
+{
+	fint z;
+	fint x;
+	z=2141542642654654567890987654567890;
+	fstring sa;
+	fstring sb;
+	z = max(1,-5);
+	fstring stra;
+	stra = "lll";
+	stra = strffunction(stra);
+	
+	if z > 0
+	{
+		fout "Welcome to BVD-2021!";
+	}
+	fout r';
+
+	return 0;
+}
+

@@ -1,4 +1,4 @@
-function strcompare(_str1, _str2)
+function Check_Equals(_str1, _str2)
 {
 	if (_str1.length !== _str2.length) return 0;
 	for (let i = 0; i < _str1.length; i++)
@@ -7,9 +7,9 @@ function strcompare(_str1, _str2)
 	}
 	return 1;
 }
-function strlength(_str)
+function Pow(a,b)
 {
-	return _str.length;
+	return Math.pow(a,b);
 }
 function max(x, y)
 {
@@ -23,28 +23,63 @@ function max(x, y)
 	}
 	return 0;
 }
-function strfunction(x)
-{
-	return "";
-}
 function strffunction(x)
 {
 	x = "dsasd";
 	return "";
 }
+function qq(x, y)
+{
+	if(x >= y)
+	{
+		return x;
+	}
+	else
+	{
+		return y;
+	}
+	return 0;
+}
+function qwerty(x, y)
+{
+	if(x === y)
+	{
+		return 11;
+	}
+	else
+	{
+		return 22;
+	}
+	return 0;
+}
+function zxcv(x, y)
+{
+	if(x !== y)
+	{
+		return 11;
+	}
+	else
+	{
+		return 22;
+	}
+	return 0;
+}
 function main()
 {
-	let z = 0;
-	let x = 0;
-	z = 2147483647;
-	let sa = "";
-	let sb = "";
-	z = max(1, -5);
-	if(z > 0)
+	let a = 0;
+	let b = 0;
+	let c = 0;
+	a = 3;
+	b = 4;
+	if(a > b)
 	{
-		console.log("Welcome to BVD-2021!");
+		c = 100;
 	}
-	console.log('r');
+	else
+	{
+		c = 200;
+	}
+	console.log(c);
 	return 0;
 }
 

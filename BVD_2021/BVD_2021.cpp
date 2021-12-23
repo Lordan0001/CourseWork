@@ -10,6 +10,8 @@
 #include "GRB.h"
 #include "Semantics.h"
 #include "CodeGenerator.h"
+#include <fstream>
+#include <string>
 using namespace std;
 #include <iomanip>
 
@@ -123,6 +125,24 @@ int _tmain(int argc, _TCHAR* argv[])
 		return 0;
 	}
 	Log::Close(log);
+	//перенос из .out в .js
+	string line;
+	ifstream ini_file{ "in.txt.out" };
+	ofstream out_file{ "Check_this.js" };
+	if (ini_file && out_file) {
+
+		while (getline(ini_file, line)) {
+			out_file << line << "\n";
+		}
+
+	}
+	else {
+		
+		printf("Cannot read File");
+	}
+	ini_file.close();
+	out_file.close();
+
 	system("pause");
 	return 0;
 }

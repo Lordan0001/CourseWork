@@ -3,25 +3,34 @@
 #include "In.h"
 
 //4
-#define INTEGERNODES	FST::NODE (1, FST::RELATION('i', 1)),\
-				FST::NODE (1, FST::RELATION('n', 2)),\
-				FST::NODE (1, FST::RELATION('t', 3)),\
+
+
+#define INTEGERNODES	FST::NODE (1, FST::RELATION('f', 1)),\
+				FST::NODE (1, FST::RELATION('i', 2)),\
+				FST::NODE (1, FST::RELATION('n', 3)),\
+				FST::NODE (1, FST::RELATION('t', 4)),\
 				FST::NODE()
 
+
 //7
-#define STRINGNODES	FST::NODE (1, FST::RELATION('s', 1)),\
-				FST::NODE (1, FST::RELATION('t', 2)),\
-				FST::NODE (1, FST::RELATION('r', 3)),\
-				FST::NODE (1, FST::RELATION('i', 4)),\
-				FST::NODE (1, FST::RELATION('n', 5)),\
-				FST::NODE (1, FST::RELATION('g', 6)),\
+
+
+
+#define STRINGNODES	FST::NODE (1, FST::RELATION('f', 1)),\
+				FST::NODE (1, FST::RELATION('s', 2)),\
+				FST::NODE (1, FST::RELATION('t', 3)),\
+				FST::NODE (1, FST::RELATION('r', 4)),\
+				FST::NODE (1, FST::RELATION('i', 5)),\
+				FST::NODE (1, FST::RELATION('n', 6)),\
+				FST::NODE (1, FST::RELATION('g', 7)),\
 				FST::NODE()
 
 //5
-#define CHARNODES	FST::NODE (1, FST::RELATION('c', 1)),\
-				FST::NODE (1, FST::RELATION('h', 2)),\
-				FST::NODE (1, FST::RELATION('a', 3)),\
-				FST::NODE (1, FST::RELATION('r', 4)),\
+#define CHARNODES	FST::NODE (1, FST::RELATION('f', 1)),\
+				FST::NODE (1, FST::RELATION('c', 2)),\
+				FST::NODE (1, FST::RELATION('h', 3)),\
+				FST::NODE (1, FST::RELATION('a', 4)),\
+				FST::NODE (1, FST::RELATION('r', 5)),\
 				FST::NODE()
 
 #define IDNODES	FST::NODE (52, FST::RELATION('a', 1),FST::RELATION('b', 1),FST::RELATION('c', 1),FST::RELATION('d', 1),FST::RELATION('e', 1),\
@@ -53,11 +62,14 @@
 				FST::NODE (1, FST::RELATION('f', 2)),\
 				FST::NODE()
 
+
+
 #define ELSENODES	FST::NODE (1, FST::RELATION('e', 1)),\
 				FST::NODE (1, FST::RELATION('l', 2)),\
 				FST::NODE (1, FST::RELATION('s', 3)),\
 				FST::NODE (1, FST::RELATION('e', 4)),\
 				FST::NODE()
+
 
 //5
 #define MAINNODES	FST::NODE (1, FST::RELATION('m', 1)),\
@@ -67,12 +79,12 @@
 				FST::NODE()
 
 //6
-#define PRINTNODES	FST::NODE (1, FST::RELATION('p', 1)),\
-				FST::NODE (1, FST::RELATION('r', 2)),\
-				FST::NODE (1, FST::RELATION('i', 3)),\
-				FST::NODE (1, FST::RELATION('n', 4)),\
-				FST::NODE (1, FST::RELATION('t', 5)),\
+#define PRINTNODES	FST::NODE (1, FST::RELATION('f', 1)),\
+				FST::NODE (1, FST::RELATION('o', 2)),\
+				FST::NODE (1, FST::RELATION('u', 3)),\
+				FST::NODE (1, FST::RELATION('t', 4)),\
 				FST::NODE()
+
 
 //7
 #define RETURNNODES	FST::NODE (1, FST::RELATION('r', 1)),\

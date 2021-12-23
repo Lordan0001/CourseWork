@@ -4,7 +4,7 @@
 #include "IT.h"
 
 #define STRCOMPARE_LIB_FUNCTION	   \
-"function strcompare(_str1, _str2)\n\
+"function Check_Equals(_str1, _str2)\n\
 {\n\
 	if (_str1.length !== _str2.length) return 0;\n\
 	for (let i = 0; i < _str1.length; i++)\n\
@@ -15,9 +15,9 @@
 }\n"
 
 #define STRLENGTH_LIB_FUNCTION	   \
-"function strlength(_str)\n\
+"function Pow(a,b)\n\
 {\n\
-	return _str.length;\n\
+	return Math.pow(a,b);\n\
 }\n"
 
 #define TABULATIONS for(int x = curLevel; x > 0; x--) { out<<"\t"; }

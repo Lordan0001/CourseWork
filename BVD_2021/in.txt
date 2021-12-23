@@ -1,4 +1,4 @@
-int max(int x, int y)
+fint max(fint x, fint y)
 {
 	if x>~y
 	{
@@ -10,28 +10,74 @@ int max(int x, int y)
 	}
 	return 0;
 }
-string strfunction(int x)
-{
-	return "";
-}
-string strffunction(string x)
+
+
+
+fstring strffunction(fstring x)
 {
 x="dsasd";
 	return "";
 }
+
+fint qq(fint x, fint y)
+{
+	if x>~y
+	{
+		return x;
+	}
+	else 
+	{
+		return y;
+	}
+	return 0;
+
+}
+
+fint qwerty(fint x, fint y)
+{
+	if x~y
+	{
+		return 11;
+	}
+	else 
+	{
+		return 22;
+	}
+	return 0;
+
+}
+
+fint zxcv(fint x, fint y)
+{
+	if x!~y
+	{
+		return 11;
+	}
+	else 
+	{
+		return 22;
+	}
+	return 0;
+
+}
+
+
 main
 {
-	int z;
-	int x;
-	z=2141542642654654567890987654567890;
-	string sa;
-	string sb;
-	z = max(1,-5);
-	if z > 0
-	{
-		print "Welcome to BVD-2021!";
+		fint a;
+	fint b;
+	fint c;
+	a = 3;
+	b = 4;
+	if a > b{
+	c = 100;
 	}
-	print r';
+	else 
+	{
+		c = 200;
+	}
+	fout c;
 	return 0;
+	
 }
 
